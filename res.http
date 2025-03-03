@@ -1,0 +1,35 @@
+### GET Request (Fetch User Data)
+GET https://jsonplaceholder.typicode.com/users/1
+Accept: application/json
+
+### POST Request (Create a New User)
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "1234",
+  "role": "teacher"
+}
+
+### POST Request (login User)
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "johndoe@example.com",
+  "password": "1234"
+}
+
+### PUT Request (Update User)
+PUT https://jsonplaceholder.typicode.com/users/1
+Content-Type: application/json
+
+{
+  "name": "John Updated",
+  "email": "updated@example.com"
+}
+
+### DELETE Request (Remove User)
+DELETE https://jsonplaceholder.typicode.com/users/1
