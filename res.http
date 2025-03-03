@@ -1,4 +1,4 @@
-### GET Request (Fetch User Data)
+### GET Request 
 GET https://jsonplaceholder.typicode.com/users/1
 Accept: application/json
 
