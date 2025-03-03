@@ -18,7 +18,7 @@ app.use("/api/courses", courseRoutes);
 
 // Connect to MongoDB
 mongoose
-  .connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("mongodb+srv://achaturvdi089:ZscHSRdM9l7wFwv6@cluster0.2onuo.mongodb.net/lmsDatabase?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.log("❌ MongoDB Connection Error:", err));
 
