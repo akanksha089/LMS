@@ -3,7 +3,7 @@ GET https://jsonplaceholder.typicode.com/users/1
 Accept: application/json
 
 ### POST Request (Create a New User)
-POST http://localhost:5000/api/auth/register
+POST https://lms-d0g5.onrender.com/api/auth/register
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 
 ### POST Request (login User)
-POST http://localhost:5000/api/auth/login
+POST https://lms-d0g5.onrender.com/api/auth/login
 Content-Type: application/json
 
 {
