@@ -14,12 +14,13 @@ Content-Type: application/json
 }
 
 ### POST Request (login User)
-POST https://lms-d0g5.onrender.com/api/auth/login
+POST http://localhost:5000/admin/users/edit/:id
 Content-Type: application/json
 
-{
-  "email": "johndoemail.com",
-  "password": "1234"
+{"id": "67c6e83c3bb135517385d4eb"
+    "name": "Jiya",
+  "email": "jia@mail.com",
+  "role": "student"
 }
 
 ### PUT Request (Update User)
